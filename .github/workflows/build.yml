@@ -1,0 +1,27 @@
+name: Build Markmap
+
+on:
+  push:
+    paths:
+      - 'map.md'
+
+jobs:
+  updateConfig:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install Markmap CLI
+        run: npm install -g markmap-cli
+      
+      - name: Generate Markmap HTML
+        run: markmap ./map.md --offline --no-toolbar --no-open -o ./index.html
+      
+      - uses: stefanzweifel/git-auto-commit-action@v5
