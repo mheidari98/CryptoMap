@@ -57,7 +57,7 @@ markmap:
  
   - <span title=" process that uses public key to encrypt and related private key to decrypt a message">Encryption</span> 
     - <span title="Relies on the difficulty of factoring large numbers">RSA (Rivest–Shamir–Adleman)</span> 
-    - **ElGamal**
+    - ElGamal
     - <span title="It's based on algebraic structures of elliptic curves over finite fields">ECC (Elliptic-Curve Cryptography)</span> 
       - Curve25519
       - P-256
@@ -120,7 +120,7 @@ markmap:
   - **Argon2**
 
 ## Public Key Infrastructure (PKI)
-  - Certificates and Certificate Authorities (CA)
+  - Certificates Authorities (CA)
   - X.509 Standard
   - Digital Signatures
   - Key Management
