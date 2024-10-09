@@ -170,7 +170,7 @@ markmap:
   - Sike
 
 
-##  <div dir="rtl" align="right"><span title=" آنها می توانند برای نگاشت داده‌هایی با اندازه دلخواه به مقادیر با اندازه ثابت استفاده شوند. آنها الگوریتم‌های معکوس‌ناپذیر هستند و احتمال اینکه دو متن به یک مقدار نگاشت شود بسیار بسیار کم است.">**Hash Functions**</span></div>
+##  <div dir="rtl" align="right"><span title=" آنها می توانند برای نگاشت داده‌هایی با اندازه دلخواه به مقادیر با اندازه ثابت استفاده شوند. آنها الگوریتم‌های معکوس‌ناپذیر هستند و احتمال اینکه دو متن به یک مقدار نگاشت شود بسیار بسیار کم است.">**Hash Functions**</span></div> <!-- markmap: fold -->
 
   - **MD5**
   - **SHA-1**
@@ -182,26 +182,8 @@ markmap:
   - **bcrypt**
   - **Argon2**
 
-## <div dir="rtl" align="right"><span title="زیرساخت کلید عمومی (PKI) مجموعه‌ای متشکل از سخت‌افزار، نرم‌افزار، افراد، سیاست‌ها و دستورالعمل‌های مورد نیاز برای مدیریت، توزیع، استفاده، ذخیره و ابطال گواهی‌های دیجیتال می‌باشد.">**Public Key Infrastructure (PKI)**</span></div>
 
-  - Certificates Authorities (CA)
-  - X.509 Standard
-  - Digital Signatures
-  - Key Management
-
-## <div dir="rtl" align="right"><span title="این پروتکل‌ها اتصالات امن را فراهم می کند و دو طرف را قادر می سازد تا با حریم خصوصی و یکپارچگی داده‌ها برای اهداف کاربردی متفاوت ارتباط برقرار کنند.">**Cryptographic Protocols**</span></div>
-  
-  - TLS/SSL
-  - SSH
-  - PGP (Pretty Good Privacy)
-  - IPSec
-  - Kerberos
-  - Zero-Knowledge Proofs
-    - Bulletproofs
-    - zk-SNARK
-    - zk-STARK
-
-## <div dir="rtl" align="right"><span title="تعدادی از تهدیدات مهم موجود در دنیای رمزنگاری که ممکن است به عنوان یک آسیب‌پذیری یک الگوریتم رمزنگاری لحاظ شود.">**Main Threats**</span></div>
+## <div dir="rtl" align="right"><span title="تعدادی از تهدیدات مهم موجود در دنیای رمزنگاری که ممکن است به عنوان یک آسیب‌پذیری یک الگوریتم رمزنگاری لحاظ شود.">**Main Threats**</span></div> <!-- markmap: fold -->
 
 
   -  <span title="Tries every possible key until the correct one is found">**Brute Force Attack**</span>
@@ -231,7 +213,7 @@ markmap:
     - <span title="Breaks RSA by efficiently factoring large numbers and ECC by discrete logarithm">Shor's Algorithm </span>
     - <span title="Speeding up Symmetric Key Search">Grover's Algorithm </span>
 
-## <div dir="rtl" align="right"><span title=" الگوریتم‌های مهم و کاربردی دیگر که در دسته‌بندی‌های بالا قرار نمی‌گیرند در اینجا قرار دارند.">**Misc Algorithms**</span></div>
+## <div dir="rtl" align="right"><span title=" الگوریتم‌های مهم و کاربردی دیگر که در دسته‌بندی‌های بالا قرار نمی‌گیرند در اینجا قرار دارند.">**Misc Algorithms**</span></div> <!-- markmap: fold -->
   - <span title="a form of encryption with an additional evaluation capability for computing over encrypted data without access to the secret key"> **Homomorphic Encryption** </span> 
 
     - Partial Homomorphic (PHE)
