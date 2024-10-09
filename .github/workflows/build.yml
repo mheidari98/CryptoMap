@@ -23,7 +23,7 @@ jobs:
         run: npm install -g markmap-cli
       
       - name: Generate Markmap HTML
-        run: markmap ./map.md --offline --no-toolbar --no-open -o ./index.html
+        run: markmap ./map.md --no-toolbar --no-open -o ./index.html
       
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
